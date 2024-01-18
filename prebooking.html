@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>TableBooking</title>
+    
+<style>
+     nav
+     {
+          background-color:#a8165a;
+
+      } 
+      nav ul
+      {
+       list-style:none;
+       margin:5px;
+       padding:10px;
+       overflow:hidden;
+       }
+        ul li
+        {
+            float: left;
+        }
+        ul li a{
+            color: #fff;
+            display: block;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'Alata', sans-serif;
+            font-size: 18px;
+       
+
+        }
+        a:hover
+        {
+          backgroud-color: #C0C0C0 ;
+        }
+           header
+        {
+              font-family: 'Alata', sans-serif;
+               font-size:40px;
+        }
+        {
+             h1
+         }
+             font-family: 'Alata', sans-serif;
+         }
+           p
+         {
+              font-family: 'Gudea', sans-serif;
+              font-size:20px;
+          }
+          body
+          {
+          background-image: url("./image/a2.jpg");
+          background-size:1000%;
+          background-repeat: no-repeat;
+          
+          }
+ 
+         
+ 
+ </style>     
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@1,200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gudea:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+        <header><center>
+                   Family Restaurant</center></header>
+     <nav>
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="about.html">About</a></li>
+       <li><a href="branch.html">Branchs</a></li>
+       <li><a href="prebooking.html">TableBooking</a></li>
+       <li><a href="contact.html">Restaurant Contact</a></li>
+    
+     </ul>
+     </nav> 
+     <h1><center>Welcome to Booking Page</center></h1>
+     <form action="register.py" method="post">
+        <fieldset>
+            <table align="center">
+                <tr><td>Name</td><td><input type="text"name="name"></td></tr>
+                <tr><td>PhoneNumber</td><td><input type="text" name="phonenumber"></td></tr>
+                <tr><td>Members</td><td><input type="text"name="members"></td></tr>
+                <tr><td>Class</td><td><select name="class">
+                        <option value="1st Class">1st Class</option>
+                        <option value="2nd Class">2nd Class</option>
+                        <option value="Without Class">Without Class</option>
+                <tr><td>Look</td><td><select name="look">
+                          <option value="Classic">Classic</option>
+                          <option value="Rich">Rich</option>
+                          <option value="Normal">Norml</option></select></td></tr>
+                
+                <tr><td><input type="submit" value="Booking"></td></tr>          
+
+                </table>
+                </fieldset>
+                </form>
+</body>
+</html>
+   
